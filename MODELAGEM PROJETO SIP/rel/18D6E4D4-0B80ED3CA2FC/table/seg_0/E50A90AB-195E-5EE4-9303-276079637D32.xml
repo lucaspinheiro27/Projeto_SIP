@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E50A90AB-195E-5EE4-9303-276079637D32" name="T_SIP_PROJETO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>88DFA60F-686D-8F20-610D-08E8E77E5B52</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="7C8EB795-8444-8FDE-4E85-472CC28BAC19">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>E6BF9B39-B9BB-0BE1-7705-6FDF10A8FC5B</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="E336D62E-4A44-9613-72F8-45822D02F6D0">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>E135705A-3986-461A-09E4-F5058A25AC83</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="215BF0A0-4B84-F860-1A35-4BADB77599B3">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>8B545F39-4FA8-F5B5-AC89-3990BE886A0E</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="2EC9D63B-DB35-44F5-8939-F067B559DFB4">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>45441C53-05B9-2CFB-A091-5214CB2BD138</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A106B47E-5AA0-0047-340D-70CBDE6A8B0B" name="PK_T_SIP_PROJETO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:17:10 UTC</createdTime>
+<generatorID>CBD8D792-395D-1BD7-DAE9-C08A6718712E</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C8EB795-8444-8FDE-4E85-472CC28BAC19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F78F6C3-4D06-D635-1172-45CECE9010FA" name="UN_SIP_PROJETO_NOME">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:19:52 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E336D62E-4A44-9613-72F8-45822D02F6D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_T_SIP_PROJETO_DATA" directorySegmentName="seg_0" id="0875E8F5-7418-6E44-7F68-D220029B3045">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-07 18:24:14 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<rule><![CDATA[DT_TERMINO > DT_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

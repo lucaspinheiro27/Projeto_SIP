@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="A2BC8137-39B5-6EAE-98C5-162DF5D4B5AC">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 19:51:26 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<sourcePk>F9BFF54E-859E-D0E9-AD9D-C08016DC26D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE356599-74DB-91CC-6DF2-5C016A578FA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0538500A-E04F-A101-1F3E-B287FAB7C6AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

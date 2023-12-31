@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A7EEE4A-C794-3F45-B02B-7C8B601DD64E" name="T_SIP_IMPLANTACAO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 19:56:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="4122215F-CD4E-5218-E3A4-D925105CB9C3">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:10:35 UTC</createdTime>
+<generatorID>73809DD6-59BB-F469-2C28-3D519E44F41B</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<referedAttribute>E6BF9B39-B9BB-0BE1-7705-6FDF10A8FC5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_implantacao" id="FBEB6088-D45D-688A-CCF9-78E51B30A084">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 19:56:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="35FC862B-8D49-A3F4-6548-BA31250C943F">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:07:00 UTC</createdTime>
+<generatorID>07117048-9B48-3E98-A0F4-45CD8617F8D2</generatorID>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<referedAttribute>841A5A66-D800-13E5-9B8A-496ED60F7675</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="ED2B068A-5700-6B48-9715-41EFA964E7E3">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 19:56:21 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="E1206BFF-BBDB-AA3C-218F-D4A601B6ACAC">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 19:56:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA0743DE-17FA-0821-98D4-9C90FA644C6E" name="T_SIP_IMPLANTACAO PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:06:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBEB6088-D45D-688A-CCF9-78E51B30A084</attributeRef>
+<attributeRef>4122215F-CD4E-5218-E3A4-D925105CB9C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

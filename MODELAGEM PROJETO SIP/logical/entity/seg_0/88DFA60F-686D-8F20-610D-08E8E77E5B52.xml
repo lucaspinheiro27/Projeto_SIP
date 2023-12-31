@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88DFA60F-686D-8F20-610D-08E8E77E5B52" name="T_SIP_PROJETO">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:07:48 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="E6BF9B39-B9BB-0BE1-7705-6FDF10A8FC5B">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:10:28 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="E135705A-3986-461A-09E4-F5058A25AC83">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:08:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="8B545F39-4FA8-F5B5-AC89-3990BE886A0E">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:08:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="45441C53-05B9-2CFB-A091-5214CB2BD138">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:08:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBD8D792-395D-1BD7-DAE9-C08A6718712E" name="T_SIP_PROJETO PK">
+<createdBy>lucas</createdBy>
+<createdTime>2023-08-06 20:10:35 UTC</createdTime>
+<ownerDesignName>MODELAGEM PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="18D6E4D4-EBC1-C36A-3ED1-0B80ED3CA2FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6BF9B39-B9BB-0BE1-7705-6FDF10A8FC5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
