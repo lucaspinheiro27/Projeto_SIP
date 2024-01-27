@@ -1,7 +1,5 @@
 # Projeto_SIP
-This is a project designed for a fictitious company called SIP, which has the entire project structure.
-
-Here is the logical and relational model of the project.
+This is a college project, where I had the opportunity to model a case of a fictitious company. Basically, I used Oracle SQL Developer Data Modeler, as this tool would be responsible for modeling the data using Excel spreadsheets. These spreadsheets were designed to categorize the attributes of the entities in the Project Implementation Control System (SIP). This project went from the logical model to the relational model so that queries could be made using the Oracle SQL Developer tool.
 
 THE LOGICAL MODEL:
 
